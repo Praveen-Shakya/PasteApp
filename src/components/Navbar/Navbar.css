@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 80%;
+    margin: 0 auto;
+    height: 60px;
+    background-color: rgb(53, 50, 50);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    /* gap: 10px; */
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    border-radius: 8px;
+    border: 1px solid rgb(148, 51, 238);
+}
+
+.links{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}

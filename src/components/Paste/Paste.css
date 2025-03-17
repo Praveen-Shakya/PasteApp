@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.searchBar{
+    width: 30%;
+    height: 35px;
+    border: 2px solid rgb(148, 51, 238);
+    border-radius: 10px;
+    /* align-items: center; */
+    padding: 0 20px;
+}
+
+.cards{
+    width: 50%;
+    height: auto;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(148, 51, 238);
+    border-radius: 10px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.cardTitle{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(148, 51, 238);
+}
+
+.curdOperations{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pasteContent h3{
+    font-weight: bold;
+}
+
+.operation{
+    background-color: rgb(148, 51, 238);
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.operation:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.operation a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.operation a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
